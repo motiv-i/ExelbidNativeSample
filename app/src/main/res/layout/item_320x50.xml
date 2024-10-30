@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="1dp"
+            android:background="@drawable/bg_round_eee">
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/native_icon_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                app:shapeAppearance="@style/CornerSize4dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Text Section -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/native_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:maxLines="1"
+                android:hint="Pretendard Bold 24px #000 -10"
+                android:fontFamily="@font/pretendard_bold"
+                android:letterSpacing="-0.05"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="0dp"
+                android:layout_marginBottom="2dp" />
+            <ImageView
+                android:id="@+id/native_privacy_information_icon_image"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:contentDescription="native_privacy_information_icon_image"
+                android:layout_marginStart="2dp"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/native_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#333333"
+            android:textSize="12sp"
+            android:maxLines="1"
+            android:hint="Pretendard Medium 24px #333 -10"
+            android:fontFamily="@font/pretendard_medium"
+            android:letterSpacing="-0.05"
+            android:includeFontPadding="false"
+            android:lineSpacingExtra="0dp"
+            android:layout_marginTop="2dp" />
+    </LinearLayout>
+
+    <!-- Image Section -->
+    <ImageView
+        android:id="@+id/native_main_image"
+        android:layout_width="96dp"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_vertical" />
+
+</LinearLayout>
