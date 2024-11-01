@@ -2,16 +2,16 @@
 
 ### 샘플 목록
 
-* [Native 320x50 1](/app/src/main/java/com/motivi/native_sample/act/Sample320x50.java)\n
+* [Native 320x50 1](/app/src/main/java/com/motivi/native_sample/act/Sample320x50.java)<br/>
     ![이미지 설명](./sample/320x50.png)
     
-* [Native 320x50 2](/app/src/main/java/com/motivi/native_sample/act/Sample320x50_2.java)\n
+* [Native 320x50 2](/app/src/main/java/com/motivi/native_sample/act/Sample320x50_2.java)<br/>
     ![이미지 설명](./sample/320x50_2.png)
 
-* [Native 320x100](/app/src/main/java/com/motivi/native_sample/act/Sample320x100.java)\n
+* [Native 320x100](/app/src/main/java/com/motivi/native_sample/act/Sample320x100.java)<br/>
     ![이미지 설명](./sample/320x100.png)
 
-* [Native 300x250](/app/src/main/java/com/motivi/native_sample/act/Sample300x250.java)\n
+* [Native 300x250](/app/src/main/java/com/motivi/native_sample/act/Sample300x250.java)<br/>
     ![이미지 설명](./sample/300x250.png)
 
 ### 각 Native item 레이아웃 xml
