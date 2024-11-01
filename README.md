@@ -5,7 +5,7 @@
 * [Native 320x50 1](/app/src/main/java/com/motivi/native_sample/act/Sample320x50.java)
     ![이미지 설명](./sample/320x50.png)
     
-* [Native 320x50 2](/app/src/main/java/com/motivi/native_sample/act/Sample320x50_2.java.java)
+* [Native 320x50 2](/app/src/main/java/com/motivi/native_sample/act/Sample320x50_2.java)
     ![이미지 설명](./sample/320x50_2.png)
 
 * [Native 320x100](/app/src/main/java/com/motivi/native_sample/act/Sample320x100.java)
@@ -16,10 +16,10 @@
 
 ### 각 Native item 레이아웃 xml
 
-1. [item_320x50.xml](\app\src\main\res\layout\item_320x50.xml)
-2. [item_320x50_2.xml](\app\src\main\res\layout\item_320x50_1.xml)
-3. [item_320x100.xml](\app\src\main\res\layout\item_320x100.xml)
-4. [item_300x250.xml](\app\src\main\res\layout\item_300x250.xml)
+1. [item_320x50.xml](/app/src/main/res/layout/item_320x50.xml)
+2. [item_320x50_2.xml](/app/src/main/res/layout/item_320x50_2.xml)
+3. [item_320x100.xml](/app/src/main/res/layout/item_320x100.xml)
+4. [item_300x250.xml](/app/src/main/res/layout/item_300x250.xml)
 
 ### 사용된 font 
 * [pretendard app/src/main/res/font/ ](app/src/main/res/font/)
